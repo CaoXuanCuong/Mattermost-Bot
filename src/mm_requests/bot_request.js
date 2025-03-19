@@ -53,8 +53,12 @@ class BotRequest {
   }
 }
 
-const TGBotRequest = new BotRequest("ikmohwktbffs5yo47z4mogxnko");
-const TSBotRequest = new BotRequest("dijqgcxgrtrdz8ckq4cmuhqixy");
-const MyBotRequest = new BotRequest("gwo9wd39dirzdrnkbj5ohe5cyw");
+const TG_CHANNEL_ID = process.env.TG_CHANNEL_ID;
+const TS_CHANNEL_ID = process.env.TS_CHANNEL_ID;
+const MY_CHANNEL_ID = process.env.MY_CHANNEL_ID;
+
+const TGBotRequest = new BotRequest(TG_CHANNEL_ID);
+const TSBotRequest = new BotRequest(TS_CHANNEL_ID);
+const MyBotRequest = new BotRequest(MY_CHANNEL_ID);
 
 module.exports = { TGBotRequest, TSBotRequest, MyBotRequest };
