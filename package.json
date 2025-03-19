@@ -1,0 +1,30 @@
+{
+  "name": "mmattermost-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "format": "npx prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.23.0",
+    "axios": "^1.8.1",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-schedule": "^2.1.1",
+    "openai": "^4.86.2",
+    "puppeteer": "^24.4.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "3.5.3"
+  }
+}
