@@ -35,13 +35,13 @@ const Schedule = {
   init: () => {
     const daysOfWeek = [1, 2, 3, 4, 5];
     schedule.scheduleJob(
-      { tz: "Asia/Ho_Chi_Minh", dayOfWeek: daysOfWeek, hour: 17, minute: 51 },
+      { tz: "Asia/Ho_Chi_Minh", dayOfWeek: daysOfWeek, hour: 18, minute: 3 },
       () => {
         autoRemindReportTasks(MMBotRequest);
       },
     );
     schedule.scheduleJob(
-      { tz: "Asia/Ho_Chi_Minh", dayOfWeek: daysOfWeek, hour: 17, minute: 51 },
+      { tz: "Asia/Ho_Chi_Minh", dayOfWeek: daysOfWeek, hour: 18, minute: 3 },
       () => {
         autoRemindSprintMeeting(MMBotRequest);
       },
