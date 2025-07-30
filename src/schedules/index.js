@@ -1,5 +1,4 @@
 const schedule = require("node-schedule");
-const { getWeatherReport } = require("../services/open_weather");
 const {
   MMBotRequest,
 } = require("../mm_requests/bot_request");
