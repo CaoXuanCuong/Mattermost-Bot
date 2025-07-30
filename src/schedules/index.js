@@ -12,7 +12,7 @@ const Schedule = {
   init: () => {
     const daysOfWeek = [1, 2, 3, 4, 5];
     schedule.scheduleJob(
-      { tz: "Asia/Ho_Chi_Minh", dayOfWeek: daysOfWeek, hour: 17, minute: 45 },
+      { tz: "Asia/Ho_Chi_Minh", dayOfWeek: daysOfWeek, hour: 17, minute: 52 },
       () => {
         autoRemindEndOfWorkDay(MMBotRequest);
       },
