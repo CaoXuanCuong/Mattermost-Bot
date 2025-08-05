@@ -20,7 +20,7 @@ const Schedule = {
     const sprintMeetingDays = [1];
 
     schedule.scheduleJob(
-      { tz: "Asia/Ho_Chi_Minh", dayOfWeek: reportTasksDays, hour: 17, minute: 30 },
+      { tz: "Asia/Ho_Chi_Minh", dayOfWeek: reportTasksDays, hour: 16, minute: 30 },
       () => {
         autoRemindReportTasks(MMBotRequest);
       },
