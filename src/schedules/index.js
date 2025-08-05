@@ -4,7 +4,7 @@ const {
 } = require("../mm_requests/bot_request");
 
 const autoRemindReportTasks = async (Request) => {
-  const reportTasksMessage = `:alarm_clock: Giờ lành đã điểm, anh chị em, sinh hoạt buồng! @cuongcx_762, @dongdx_1222, @cuonghv_1099, @vanntt_1107, @dungntp1_1221.\nReply vào thread này để báo cáo nha, theo mẫu sau:\n\nI. Những task đang làm\n1. Update: Storefront - Popup\nLink: https://pms.bssgroup.vn/default/viewtaskdetail/SABLPR-3\nTiến độ: 85%\nVấn đề: Không\nDự kiến done: Ngày mai\n2. CMS - Customers\nLink: https://pms.bssgroup.vn/default/viewtaskdetail/SABLPR-8\nTiến độ: 90%\n Vấn đề: Không\n\nII. Những task dự kiến làm\nKhông có`
+  const reportTasksMessage = `:alarm_clock: Giờ lành đã điểm, anh chị em, sinh hoạt buồng! @dongdx_1222, @cuonghv_1099, @vanntt_1107, @dungntp1_1221.\nReply vào thread này để báo cáo nha, theo mẫu sau:\n\nI. Những task đang làm\n1. Update: Storefront - Popup\nLink: https://pms.bssgroup.vn/default/viewtaskdetail/SABLPR-3\nTiến độ: 85%\nVấn đề: Không\nDự kiến done: Ngày mai\n2. CMS - Customers\nLink: https://pms.bssgroup.vn/default/viewtaskdetail/SABLPR-8\nTiến độ: 90%\n Vấn đề: Không\n\nII. Những task dự kiến làm\nKhông có`
   ;
   await Request.send({ message: reportTasksMessage });
 };
